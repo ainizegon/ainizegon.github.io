@@ -1,0 +1,42 @@
+.sectAlbisteak {
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 15px;
+}
+
+    .albisteak {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+        .albisteak img{
+            width: 20%;
+        }
+
+        .albisteak .deskribapena a {
+            text-decoration: none;
+        }
+
+        .albisteak .deskribapena a:hover {
+            color: gold;
+        }
+
+            .albisteak .deskribapena a h4 {
+                color: black;
+                font-size: 1.5em;
+            }
+
+            .albisteak .deskribapena a h4:hover {
+                color: gold;
+            }
+
+    .deskribapena {
+        width: 70%;
+        margin: 15px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }

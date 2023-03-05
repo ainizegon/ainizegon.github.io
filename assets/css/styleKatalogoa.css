@@ -1,0 +1,98 @@
+.flex-layout {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.polaroid {
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+div.polaroid img {
+    width: 100%;
+}
+
+div.container {
+    height: 30px;
+    padding: 10px;
+}
+
+.polaroid-aurrekoa img {
+    width: 100%;
+    height: auto;
+}
+
+.polaroid-txartela .container p{
+    font-size: 0.5em;
+}
+
+.polaroid-txartela {
+    background-color: transparent;
+    height: 400px;
+}
+
+.polaroid-barrukoa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.5s;
+    transform-style: preserve-3d; 
+}
+
+.polaroid-txartela:hover .polaroid-barrukoa {
+    transform: rotateY(180deg);
+}
+
+.polaroid-aurrekoa, .polaroid-atzekoa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.polaroid-aurrekoa {
+    background-color: transparent;
+    color: black;
+}
+
+.polaroid-atzekoa {
+    background-color: transparent;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+    .polaroid-atzekoa p {
+        text-align: justify;
+    }
+
+.polaroid a button {
+    width: 40%;
+    background-color: rgba(255, 217, 0, 0.6);
+    border-radius: 5px;
+}
+
+    .polaroid a button:hover {
+        width: 40%;
+        background-color: rgb(255, 217, 0);
+        border-radius: 5px;
+    }
+
+@media only screen and (max-width: 767px) {
+    div.polaroid {
+        width: 25%;
+    }
+    
+    .polaroid-txartela {
+        height: 300px;
+    }
+}

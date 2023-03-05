@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* width: 95%; */
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoa {
+    width: 10%;
+}
+
+.logoa img{
+    width: 45%;
+    margin: 15px;
+}
+
+nav {
+    width: 50%;
+}
+
+    div.normala {
+        width: 100%;
+        height: 50px;
+    }
+
+        div.normala ul {
+            width: 90%;
+            height: 50px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            div.normala ul li {
+                list-style: none;
+            }
+
+                div.normala ul li a {
+                    text-decoration: none;
+                    font-size: 2em;
+                    color: black;
+                    font-family: 'Amatic SC', cursive;
+                }
+
+                div.normala ul li a.bold {
+                    text-decoration: underline;
+                }
+
+                div.normala ul li a:hover {
+                    color: gold;
+                }
+
+    div.navHamburguesa {
+        display: none;
+    }
+
+.portada {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/hasierakoArgazkia.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+    h1 {
+        width: 70%;
+        margin: 15px auto;
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        color: black;
+        font-size: 3em;
+    }
+
+.saskia {
+    width: 5%;
+}
+
+    .saskia img {
+        width: 60%;
+    }
+
+footer {
+    width: 100%;
+    height: 115px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0,0), rgb(255, 229, 83));
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer div {
+    width: 20%;
+    padding-left: 15px;
+}
+
+footer div p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footerErdikoa {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logosRedes {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoColor {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.logoColor > img:nth-child(2) {
+    display: none;
+}
+
+.logoColor:hover > img:nth-child(1){
+    display: none;
+}
+
+.logoColor:hover > img:nth-child(2) {
+    display: block;
+}
+
+.footerNav a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.footerNav a:hover {
+    font-weight: bold;
+}
+
+.footerGora a {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footerGora a img.giro {
+    width: 30%;
+    transition: transform .5s;
+}
+
+.footerGora a img.giro:hover {
+    transform: rotate(180deg);
+    transition-timing-function: linear;
+}
+
+@media only screen and (max-width: 767px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logoa img{
+        width: 70%;
+    }
+
+    .saskia {
+        margin-right: 15px;
+    }
+
+        .saskia img {
+            width: 100%;
+        }
+
+        .normala {
+            display: none;
+        }
+
+        div.navHamburguesa {
+            width: 20%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        } 
+    
+        .navHamburguesa img {
+            width: 50%;
+        }
+
+    .logosRedes {
+        margin-left: 5px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .logosRedes img {
+        width: 100%;
+    }
+
+    .logosRedes img a img {
+        margin-left: 5px;
+    }
+
+    .footerGora a {
+        align-items: center;
+    }
+
+    .footerGora a img {
+        width: 100%;
+    }
+}

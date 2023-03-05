@@ -1,0 +1,191 @@
+.mainEskaria {
+    width: 50%;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .mainEskaria .form {
+        width: 80%;
+        margin: 15px auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+        .mainEskaria .form p {
+            width: 100%;
+            margin: 15px auto;
+        }
+
+        .mainEskaria .form input {
+            width: 100%;
+            border: 1px solid gold;
+            margin: 0 auto;
+        }
+
+        .mainEskaria .form a .atzera {
+            width: 30%;
+            border: 1px solid black;
+            background-color: rgba(128, 128, 128, 0.6);
+            border-radius: 5px;
+            margin: 15px auto;
+        }
+
+        .mainEskaria .form a .atzera:hover {
+            background-color: grey;
+        }
+
+        .mainEskaria .form a .hurrengoa {
+            width: 30%;
+            border: 1px solid black;
+            background-color: rgba(255, 217, 0, 0.6);
+            border-radius: 5px;
+            margin: 15px auto;
+        }
+
+        .mainEskaria .form a .hurrengoa:hover {
+            background-color: gold;
+        }
+
+        .guztira a .atzera {
+            width: 70%;
+            border: 1px solid black;
+            background-color: rgba(128, 128, 128, 0.6);
+            border-radius: 5px;
+            margin: 15px auto;
+        }
+
+        .guztira a .atzera:hover {
+            background-color: grey;
+        }
+
+.mainOrdainketaMota {
+    width: 50%;
+    height: 350px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .mainOrdainketaMota .saskia {
+        width: 40%;
+        height: 300px;
+        margin: 15px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .mainOrdainketaMota .saskia p {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .mainOrdainketaMota .saskia a {
+        width: 100%;
+    }
+
+        .mainOrdainketaMota .saskia a .hurrengoa {
+            width: 100%;
+            border: 1px solid black;
+            background-color: rgba(255, 217, 0, 0.6);
+            border-radius: 5px;
+            margin: 15px auto;
+        }
+
+        .mainOrdainketaMota .saskia a .hurrengoa:hover {
+            background-color: rgba(255, 217, 0);
+        }
+
+        .mainOrdainketaMota .saskia a .atzera {
+            width: 50%;
+            border: 1px solid black;
+            background-color: rgba(128, 128, 128, 0.6);
+            border-radius: 5px;
+            margin: 15px auto;
+        }
+
+        .mainOrdainketaMota .saskia a .atzera:hover {
+            background-color: grey;
+        }
+
+.eskaria4 {
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .eskaria4 .eskariaBarrukoa {
+        width: 40%;
+        height: 550px;
+        margin: 15px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .eskaria4 .eskariaBarrukoa p {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .eskaria4 .eskariaBarrukoa a .hurrengoa {
+        width: 100%;
+        border: 1px solid black;
+        background-color: rgba(255, 217, 0, 0.6);
+        border-radius: 5px;
+        margin: 15px auto;
+    }
+
+    .eskaria4 .eskariaBarrukoa a .hurrengoa:hover {
+        background-color: rgba(255, 217, 0);
+    }
+
+    .eskaria4 .eskariaBarrukoa a .atzera {
+        width: 70%;
+        border: 1px solid black;
+        background-color: rgba(128, 128, 128, 0.6);
+        border-radius: 5px;
+        margin: 15px auto;
+    }
+
+    .eskaria4 .eskariaBarrukoa a .atzera:hover {
+        background-color: grey;
+    }
+
+.eskaria5 {
+    width: 55%;
+    height: auto;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .eskaria5 h3{
+        margin: 15px auto;
+    }
+
+    .eskaria5 img {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .eskaria5 a {
+        margin: 0 auto;
+    }
+
+        .eskaria5 a button.hurrengoa {
+            width: 100%;
+            border: 1px solid black;
+            background-color: rgba(255, 217, 0, 0.6);
+            border-radius: 5px;
+            margin: 15px auto;
+        }
+
+        .eskaria5 a button.hurrengoa:hover {
+            background-color: rgba(255, 217, 0);
+        }
+

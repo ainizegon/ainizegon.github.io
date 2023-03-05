@@ -1,0 +1,155 @@
+main {
+    width: 100%;
+    height: auto;
+}
+
+    .grid-layout {
+        width: 95%;
+        height: auto;
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: 60% auto;
+        gap: 30px;
+    }
+
+        .kutxak {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+            .k1 {
+                grid-column: 1/2;
+                grid-row: 1/4;
+            }
+
+            .k2 {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+
+            .k3 {
+                grid-column: 2/3;
+                grid-row: 2/4;
+            }
+
+        h2 {
+            width: 80%;
+            margin: 15px auto;
+            font-size: 3em;
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+        }
+
+        .gomendazioLiburua1, .gomendazioLiburua2, .autorearenInformazioa{
+            width: 100%;
+            margin: 15px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+            .gomendazioLiburua1 img, .gomendazioLiburua2 img, .autorearenInformazioa img{
+                width: 30%;
+            }
+
+            .gomendazioLiburua1 .liburuarenInformazioa, .gomendazioLiburua2 .liburuarenInformazioa, .autorearenInformazioa .liburuarenInformazioa{
+                width: 40%;
+            }
+
+            .gomendazioLiburua1 .liburuarenInformazioa p, .gomendazioLiburua2 .liburuarenInformazioa p, .autorearenInformazioa .liburuarenInformazioa p{
+                text-align: justify;
+                margin-top: 15px;
+            }
+
+        .azkenAlbisteak {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .albistea {
+                width: 100%;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+                .albistea p {
+                    width: 60%;
+                    text-align: justify;
+                }
+
+                .albistea img {
+                    width: 30%;
+                    height: auto;
+                }
+
+            .azkenAlbisteak p a {
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .azkenAlbisteak p a:hover {
+                color: gold;
+            }
+
+            .azkenAlbisteak h4 a {
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .azkenAlbisteak h4 a:hover {
+                color: gold;
+            }
+
+        .k3 div{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .k3 div img {
+                width: 70%;
+            }
+
+            .k3 div p a {
+                font-weight: bold;
+                color: black;
+                text-decoration: none;
+            }
+
+            .k3 div p a:hover {
+                color: gold;
+            }
+
+@media only screen and (max-width: 767px) {
+    .grid-layout {
+        grid-template-columns: auto;
+    }
+
+    .k1 {
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+
+    .k2 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .k3 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+}
+    
